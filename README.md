@@ -1,5 +1,7 @@
 锁
+<br>
 nodejs的多线程同步锁
+<br>
 主线程操作
 ```js
 let Lock = require('./lock');
