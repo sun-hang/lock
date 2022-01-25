@@ -1,6 +1,6 @@
-＃ 锁
+锁
 nodejs的多线程同步锁
-##主线程操作
+主线程操作
 ```js
 let Lock = require('./lock');
 let { Worker } = require('worker_threads');
@@ -21,7 +21,7 @@ setTimeout(() => {
 }, 3000)
 ```
 
-##子线程
+子线程
 ```js
 let Lock = require('./lock');
 const fs = require('fs')
